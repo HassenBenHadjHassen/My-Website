@@ -1,0 +1,150 @@
+/*---------------------------------------------------------------------TAG ONLY------------------------------------------------------------------------  */
+body {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin: 0 auto ;
+    margin-bottom: 0;
+    font-family: 'Sacramento', cursive;
+    color: #296161;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #296161;
+}
+
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+}
+
+hr {
+    border-style: dotted none none none;
+    border-width: 7px;
+    color: #5c727296;
+    width: 20%;
+    margin: 50px auto;
+}
+
+/*---------------------------------------------------------------------CLASS ONLY------------------------------------------------------------------------  */
+
+.Top_Container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 79px;;
+
+}
+
+.Middle_Container {
+    margin-top: 30px;
+}
+
+.Bottom_Container{
+    background-color: #66BFBF;
+    padding: 30px;
+    margin-top: 60px;
+}
+
+.Top_Cloud {
+    position: absolute;
+    right: 500px;
+    top: 100px;
+}
+
+.Bottom_Cloud {
+    position: absolute;
+    left: 500px;
+    bottom: 300px;
+}
+
+.MS_Office {
+    margin-right: 30px;
+    width: 25%;
+    height: 25%;
+    float: left;
+}
+
+.Photo_Editing {
+    margin-left: 30px;
+    width: 25%;
+    height: 25%;
+    float: right;
+}
+
+.Web_Dev {
+    border-radius: 50%;
+    width: 25%;
+    height: 25%;
+    margin-right: 30px;
+    float: left;
+}
+
+.desc {
+    font-size: 140%;
+    margin-top: 0;
+}
+
+.mountain {
+    position: relative;
+    top: 6px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    border-radius: 30px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #4887b0);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #4887b0);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #4887b0);
+    background-image: -o-linear-gradient(top, #3cb0fd, #4887b0);
+    background-image: linear-gradient(to bottom, #3cb0fd, #4887b0);
+    text-decoration: none;
+  }
+.Bottom_Container > a {
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.copyright {
+    font-size: .75rem;
+    margin-top: 20px;
+}
+
+a:hover {
+    color: #EAEAEA;
+}
